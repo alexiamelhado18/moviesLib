@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+}
+
+header,
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>a {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#link__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+
+}
